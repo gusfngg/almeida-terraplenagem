@@ -13,7 +13,7 @@ export function Values() {
         realização de seus projetos.
       </h1>
 
-      <div className="grid gap-6 md:grid-cols-3 max-w-6xl mx-auto p-4 mt-24">
+      <div className="grid gap-6 md:grid-cols-3 max-w-6xl mx-auto p-4 mt-20">
         <Card className="relative overflow-hidden">
           <CardContent className="p-6 flex flex-col items-center text-center space-y-4">
             <div className="p-3 bg-brownAm rounded-lg">
