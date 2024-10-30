@@ -15,7 +15,7 @@ import Image from 'next/image'
 
 export function Services() {
   return (
-    <section id="services">
+    <section id="services" className="mb-32">
       <h1
         className={`${jura.className} text-4xl font-black mt-32 text-center mb-10`}
       >
@@ -26,7 +26,7 @@ export function Services() {
           <DialogTrigger asChild className="pointer">
             <CardServices service="Limpeza de Terreno" img={Image1} />
           </DialogTrigger>
-          <DialogContent className="max-w-[345px]">
+          <DialogContent className="max-w-[345px] lg:max-w-[500px]">
             <DialogHeader>
               <DialogTitle>Limpeza de terreno</DialogTitle>
             </DialogHeader>
@@ -37,7 +37,9 @@ export function Services() {
               deixando o terreno limpo e adequado.
             </p>
 
-            <Image className="rounded-lg" src={Image1} alt="" />
+            <div className="flex items-center justify-center">
+              <Image className="rounded-lg" src={Image1} alt="" />
+            </div>
           </DialogContent>
         </Dialog>
 
@@ -45,7 +47,7 @@ export function Services() {
           <DialogTrigger asChild className="pointer">
             <CardServices service="Nivelamento de Terreno" img={Image2} />
           </DialogTrigger>
-          <DialogContent className="max-w-[345px]">
+          <DialogContent className="max-w-[345px] lg:max-w-[500px]">
             <DialogHeader>
               <DialogTitle>Nivelamento de terreno</DialogTitle>
             </DialogHeader>
@@ -56,14 +58,16 @@ export function Services() {
               fundações e estruturas com segurança.
             </p>
 
-            <Image className="rounded-lg" src={Image2} alt="" />
+            <div className="flex items-center justify-center">
+              <Image className="rounded-lg" src={Image2} alt="" />
+            </div>
           </DialogContent>
         </Dialog>
         <Dialog>
           <DialogTrigger asChild className="pointer">
             <CardServices service="Demolição" img={Image3} />
           </DialogTrigger>
-          <DialogContent className="max-w-[345px]">
+          <DialogContent className="max-w-[345px] lg:max-w-[500px]">
             <DialogHeader>
               <DialogTitle>Demolição</DialogTitle>
             </DialogHeader>
@@ -73,15 +77,16 @@ export function Services() {
               projetos. Esse processo inclui a remoção segura de todos os
               resíduos, garantindo um espaço limpo.
             </p>
-
-            <Image className="rounded-lg" src={Image3} alt="" />
+            <div className="flex items-center justify-center">
+              <Image className="rounded-lg" src={Image3} alt="" />
+            </div>
           </DialogContent>
         </Dialog>
         <Dialog>
           <DialogTrigger asChild className="pointer">
             <CardServices service="Escavação" img={Image4} />
           </DialogTrigger>
-          <DialogContent className="max-w-[345px]">
+          <DialogContent className="max-w-[345px] lg:max-w-[500px]">
             <DialogHeader>
               <DialogTitle>Escavação</DialogTitle>
             </DialogHeader>
@@ -91,8 +96,9 @@ export function Services() {
               equipamentos especializados, essa etapa prepara o terreno para
               obras profundas, garantindo segurança na construção.
             </p>
-
-            <Image className="rounded-lg" src={Image4} alt="" />
+            <div className="flex items-center justify-center">
+              <Image className="rounded-lg" src={Image4} alt="" />
+            </div>
           </DialogContent>
         </Dialog>
       </div>

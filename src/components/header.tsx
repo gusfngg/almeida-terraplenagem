@@ -12,6 +12,7 @@ import { useEffect, useState } from 'react'
 const navItems = [
   { name: 'Início', to: 'hero' },
   { name: 'Serviços', to: 'services' },
+  { name: 'Nossa base', to: 'values'},
   { name: 'Sobre', to: 'about' },
 ]
 
@@ -55,7 +56,7 @@ export function Header() {
                       spy={true}
                       activeClass="text-primary"
                     >
-                      <span className="text-brownAm text-lg font-medium hover:text-orange-500 transition-">
+                      <span className="text-brownAm text-lg cursor-pointer ont-medium hover:text-orange-500 transition-">
                         {item.name}
                       </span>
                     </ScrollLink>
