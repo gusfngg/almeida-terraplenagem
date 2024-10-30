@@ -34,7 +34,7 @@ export function Services() {
               A limpeza de terreno é um serviço fundamental para a preparação de
               áreas destinadas a novas construções. Esse processo envolve a
               remoção de entulhos, vegetação, árvores e outros resíduos,
-              deixando o terreno limpo e adequado para futuras etapas da obra.
+              deixando o terreno limpo e adequado.
             </p>
 
             <Image className="rounded-lg" src={Image1} alt="" />
@@ -53,8 +53,7 @@ export function Services() {
               O nivelamento de terreno é essencial para garantir uma base plana
               e estável para construções. Esse processo ajusta a topografia do
               solo, corrigindo desníveis e preparando a área para receber
-              fundações e estruturas com segurança, facilitando o andamento da
-              obra.
+              fundações e estruturas com segurança.
             </p>
 
             <Image className="rounded-lg" src={Image2} alt="" />
@@ -72,8 +71,7 @@ export function Services() {
               A demolição é o serviço de desmontagem controlada de estruturas
               antigas ou indesejadas no terreno, preparando a área para novos
               projetos. Esse processo inclui a remoção segura de todos os
-              resíduos, garantindo um espaço limpo e pronto para novas
-              construções.
+              resíduos, garantindo um espaço limpo.
             </p>
 
             <Image className="rounded-lg" src={Image3} alt="" />
