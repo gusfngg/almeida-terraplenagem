@@ -30,7 +30,7 @@ export function Services() {
             <DialogHeader>
               <DialogTitle>Limpeza de terreno</DialogTitle>
             </DialogHeader>
-            <p className="text-neutral-300 tracking-tight text-lg text-justify">
+            <p className="text-neutral-300 tracking-tight text-[17px] text-justify">
               A limpeza de terreno é um serviço fundamental para a preparação de
               áreas destinadas a novas construções. Esse processo envolve a
               remoção de entulhos, vegetação, árvores e outros resíduos,
@@ -40,9 +40,63 @@ export function Services() {
             <Image className="rounded-lg" src={Image1} alt="" />
           </DialogContent>
         </Dialog>
-        <CardServices service="Nivelamento de Terreno" img={Image2} />
-        <CardServices service="Demolição" img={Image3} />
-        <CardServices service="Escavação" img={Image4} />
+
+        <Dialog>
+          <DialogTrigger asChild className="pointer">
+            <CardServices service="Nivelamento de Terreno" img={Image2} />
+          </DialogTrigger>
+          <DialogContent className="max-w-[345px]">
+            <DialogHeader>
+              <DialogTitle>Nivelamento de terreno</DialogTitle>
+            </DialogHeader>
+            <p className="text-neutral-300 tracking-tight text-[17px] text-justify">
+              O nivelamento de terreno é essencial para garantir uma base plana
+              e estável para construções. Esse processo ajusta a topografia do
+              solo, corrigindo desníveis e preparando a área para receber
+              fundações e estruturas com segurança, facilitando o andamento da
+              obra.
+            </p>
+
+            <Image className="rounded-lg" src={Image2} alt="" />
+          </DialogContent>
+        </Dialog>
+        <Dialog>
+          <DialogTrigger asChild className="pointer">
+            <CardServices service="Demolição" img={Image3} />
+          </DialogTrigger>
+          <DialogContent className="max-w-[345px]">
+            <DialogHeader>
+              <DialogTitle>Demolição</DialogTitle>
+            </DialogHeader>
+            <p className="text-neutral-300 tracking-tight text-[17px] text-justify">
+              A demolição é o serviço de desmontagem controlada de estruturas
+              antigas ou indesejadas no terreno, preparando a área para novos
+              projetos. Esse processo inclui a remoção segura de todos os
+              resíduos, garantindo um espaço limpo e pronto para novas
+              construções.
+            </p>
+
+            <Image className="rounded-lg" src={Image3} alt="" />
+          </DialogContent>
+        </Dialog>
+        <Dialog>
+          <DialogTrigger asChild className="pointer">
+            <CardServices service="Escavação" img={Image4} />
+          </DialogTrigger>
+          <DialogContent className="max-w-[345px]">
+            <DialogHeader>
+              <DialogTitle>Escavação</DialogTitle>
+            </DialogHeader>
+            <p className="text-neutral-300 tracking-tight text-[17px]  text-justify">
+              A escavação é o processo de remoção de solo para abrir fundações,
+              valas ou outras estruturas subterrâneas essenciais. Com
+              equipamentos especializados, essa etapa prepara o terreno para
+              obras profundas, garantindo segurança na construção.
+            </p>
+
+            <Image className="rounded-lg" src={Image4} alt="" />
+          </DialogContent>
+        </Dialog>
       </div>
     </section>
   )
