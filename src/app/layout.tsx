@@ -1,6 +1,6 @@
 import './globals.css'
+import { dmSans } from '@/lib/fonts'
 import type { Metadata } from 'next'
-import { roboto } from '@/lib/fonts'
 
 export const metadata: Metadata = {
   title: 'Almeida Terraplenagem',
@@ -14,7 +14,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body
-        className={`${roboto} antialiased 
+        className={`${dmSans} antialiased 
         overflow-y-auto
         [&::-webkit-scrollbar]:w-1
         [&::-webkit-scrollbar-track]:rounded-full

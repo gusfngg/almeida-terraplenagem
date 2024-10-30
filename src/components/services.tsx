@@ -4,7 +4,13 @@ import Image1 from '@/assets/1.png'
 import Image2 from '@/assets/2.png'
 import Image3 from '@/assets/3.png'
 import Image4 from '@/assets/4.png'
-import { Dialog, DialogContent, DialogTrigger } from './ui/dialog'
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from './ui/dialog'
 
 export function Services() {
   return (
@@ -19,8 +25,15 @@ export function Services() {
           <DialogTrigger asChild className="pointer">
             <CardServices service="Limpeza de Terreno" img={Image1} />
           </DialogTrigger>
-          <DialogContent>
-            <h1>Limpeza de tereno</h1>
+          <DialogContent className="max-w-[345px]">
+            <DialogHeader>
+              <DialogTitle>Limpeza de terreno</DialogTitle>
+            </DialogHeader>
+            <p className="text-neutral-300 tracking-tight text-lg text-justify">
+              A limpeza de terreno é um serviço fundamental para a preparação de
+              áreas destinadas a novas construções. Esse processo envolve a
+              remoção de entulhos, vegetação, árvores e outros
+            </p>
           </DialogContent>
         </Dialog>
         <CardServices service="Nivelamento de Terreno" img={Image2} />
