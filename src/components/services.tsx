@@ -11,6 +11,7 @@ import {
   DialogTitle,
   DialogTrigger,
 } from './ui/dialog'
+import Image from 'next/image'
 
 export function Services() {
   return (
@@ -32,8 +33,11 @@ export function Services() {
             <p className="text-neutral-300 tracking-tight text-lg text-justify">
               A limpeza de terreno é um serviço fundamental para a preparação de
               áreas destinadas a novas construções. Esse processo envolve a
-              remoção de entulhos, vegetação, árvores e outros
+              remoção de entulhos, vegetação, árvores e outros resíduos,
+              deixando o terreno limpo e adequado para futuras etapas da obra.
             </p>
+
+            <Image className="rounded-lg" src={Image1} alt="" />
           </DialogContent>
         </Dialog>
         <CardServices service="Nivelamento de Terreno" img={Image2} />

@@ -1,5 +1,5 @@
 import './globals.css'
-import { dmSans } from '@/lib/fonts'
+import { inter } from '@/lib/fonts'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -14,7 +14,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body
-        className={`${dmSans} antialiased 
+        className={`${inter} antialiased 
         overflow-y-auto
         [&::-webkit-scrollbar]:w-1
         [&::-webkit-scrollbar-track]:rounded-full

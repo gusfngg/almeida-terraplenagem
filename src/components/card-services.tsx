@@ -8,7 +8,7 @@ interface CardServicesProps {
 
 export function CardServices({ service, img }: CardServicesProps) {
   return (
-    <div className="relative w-[370px] lg:w-full cursor-pointer rounded-lg overflow-hidden lg:hover:scale-105 transition-all ease-in-out delay-100">
+    <div className="relative w-[360px] h-[330px] lg:w-full cursor-pointer rounded-xl overflow-hidden lg:hover:scale-105 transition-all ease-in-out delay-100">
       {img && (
         <Image
           className="h-auto lg:w-full w-full object-contain"
