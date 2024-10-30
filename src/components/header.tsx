@@ -12,7 +12,7 @@ import { useEffect, useState } from 'react'
 const navItems = [
   { name: 'Início', to: 'hero' },
   { name: 'Serviços', to: 'services' },
-  { name: 'Nossa base', to: 'values'},
+  { name: 'Nossa base', to: 'values' },
   { name: 'Sobre', to: 'about' },
 ]
 
