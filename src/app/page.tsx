@@ -1,5 +1,7 @@
+import { FrequentlyAsked } from '@/components/frequently-asked '
 import { Header } from '@/components/header'
 import Hero from '@/components/hero'
+import { MarqueeImage } from '@/components/marquee'
 import { Services } from '@/components/services'
 import { Values } from '@/components/values'
 
@@ -15,6 +17,11 @@ export default function Home() {
       <div className="mx-auto flex max-w-[90rem] flex-col px-5">
         <Services />
         <Values />
+      </div>
+
+      <div className="mx-auto flex max-w-[90rem] flex-col px-5">
+        <MarqueeImage />
+        <FrequentlyAsked />
       </div>
     </div>
   )
