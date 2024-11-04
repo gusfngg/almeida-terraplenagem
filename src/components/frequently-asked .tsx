@@ -15,7 +15,7 @@ export function FrequentlyAsked() {
         Perguntas frequentes
       </h1>
 
-      <div className="w-[25rem] lg:w-[45rem] mt-12 border p-5 rounded-md ">
+      <div className="w-[23rem] lg:w-[45rem] mt-12 border p-4 rounded-md ">
         <Accordion type="single" collapsible className="w-full">
           <AccordionItem value="item-1">
             <AccordionTrigger>
