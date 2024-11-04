@@ -52,24 +52,13 @@ export function FrequentlyAsked() {
           </AccordionItem>
           <AccordionItem value="item-4">
             <AccordionTrigger>
-              Quais serviços de terraplenagem vocês oferecem?
+              Quais são as etapas do processo de terraplenagem?
             </AccordionTrigger>
             <AccordionContent>
-              Oferecemos serviços completos de terraplenagem, incluindo
-              nivelamento de terreno, escavação, drenagem, compactação, e
-              demolição. Nosso objetivo é preparar o solo para construção,
-              garantindo estabilidade e segurança..
-            </AccordionContent>
-          </AccordionItem>
-          <AccordionItem value="item-5">
-            <AccordionTrigger>
-              Quais serviços de terraplenagem vocês oferecem?
-            </AccordionTrigger>
-            <AccordionContent>
-              Oferecemos serviços completos de terraplenagem, incluindo
-              nivelamento de terreno, escavação, drenagem, compactação, e
-              demolição. Nosso objetivo é preparar o solo para construção,
-              garantindo estabilidade e segurança..
+              O processo inclui análise e planejamento do terreno, remoção de
+              entulhos e vegetação, escavação, nivelamento, drenagem e
+              compactação do solo. Cada etapa é feita com cuidado para garantir
+              um terreno estável e seguro.
             </AccordionContent>
           </AccordionItem>
         </Accordion>
