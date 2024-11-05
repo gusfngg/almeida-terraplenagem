@@ -3,7 +3,7 @@
 import * as React from 'react'
 import * as DialogPrimitive from '@radix-ui/react-dialog'
 import { X } from 'lucide-react'
-import { jura } from '@/lib/fonts'
+import { switzer } from '@/lib/fonts'
 
 import { cn } from '@/lib/utils'
 
@@ -22,7 +22,7 @@ const DialogOverlay = React.forwardRef<
   <DialogPrimitive.Overlay
     ref={ref}
     className={cn(
-      'fixed inset-0 z-50 bg-black/50  data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0',
+      'fixed inset-0 z-50 bg-black/60  data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0',
       className,
     )}
     {...props}
@@ -89,7 +89,7 @@ const DialogTitle = React.forwardRef<
   <DialogPrimitive.Title
     ref={ref}
     className={cn(
-      `${jura.className} text-lg text-orangeAm font-bold leading-none tracking-tight`,
+      `${switzer.className} text-lg text-orangeAm font-medium leading-none tracking-tight`,
       className,
     )}
     {...props}

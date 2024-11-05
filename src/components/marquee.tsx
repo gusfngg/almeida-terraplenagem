@@ -14,7 +14,7 @@ import Img8 from '@/assets/marquee/8.png'
 import Img9 from '@/assets/marquee/9.png'
 import Img10 from '@/assets/marquee/10.png'
 
-export function MarqueeImage() {
+export default function Componnet() {
   const images = [Img1, Img2, Img3, Img4, Img6, Img7, Img8, Img9, Img10]
 
   return (
@@ -25,7 +25,7 @@ export function MarqueeImage() {
         OBRAS REALIZADAS
       </h1>
 
-      <Marquee gradient={false} speed={150} className="py-4 mt-8">
+      <Marquee gradient={false} speed={105} className="py-4 mt-8">
         {images.map((src, index) => (
           <div key={index} className="mx-4">
             <Image
