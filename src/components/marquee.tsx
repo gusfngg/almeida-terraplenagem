@@ -13,6 +13,7 @@ import Img7 from '@/assets/marquee/7.png'
 import Img8 from '@/assets/marquee/8.png'
 import Img9 from '@/assets/marquee/9.png'
 import Img10 from '@/assets/marquee/10.png'
+import { ButtonCta } from './ui/button-cta'
 
 export default function Componnet() {
   const images = [Img1, Img2, Img3, Img4, Img6, Img7, Img8, Img9, Img10]
@@ -38,6 +39,10 @@ export default function Componnet() {
           </div>
         ))}
       </Marquee>
+
+      <div className="flex items-center justify-center">
+        <ButtonCta message="Solicite um orçamento!" />
+      </div>
     </div>
   )
 }

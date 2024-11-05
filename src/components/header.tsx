@@ -8,6 +8,7 @@ import Logo from '@/assets/logotipo.png'
 
 import { Drawer, DrawerContent, DrawerTrigger } from '@/components/ui/drawer'
 import { useEffect, useState } from 'react'
+import { ButtonCta } from './ui/button-cta'
 
 const navItems = [
   { name: 'Início', to: 'hero' },
@@ -95,12 +96,7 @@ export function Header() {
             </Drawer>
           </div>
 
-          <Button
-            size={'lg'}
-            className="bg-orangeAm text-brownAm font-semibold hover:bg-orange-400 hidden lg:block"
-          >
-            Entrar em contato!
-          </Button>
+          <ButtonCta message="Entrar em contato!" />
         </div>
       </div>
     </header>

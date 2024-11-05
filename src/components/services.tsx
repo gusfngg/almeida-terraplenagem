@@ -30,7 +30,7 @@ export function Services() {
               <DialogTitle>Limpeza de terreno</DialogTitle>
             </DialogHeader>
             <p
-              className={` ${switzer.className} text-neutral-300 tracking-tight text-[17px] text-justify`}
+              className={` ${switzer.className} text-neutral-300 tracking-tight text-[17px] text-left`}
             >
               A limpeza de terreno é um serviço fundamental para a preparação de
               áreas destinadas a novas construções. Esse processo envolve a
@@ -49,7 +49,7 @@ export function Services() {
               <DialogTitle>Nivelamento de terreno</DialogTitle>
             </DialogHeader>
             <p
-              className={` ${switzer.className} text-neutral-300 tracking-tight text-[17px] text-justify`}
+              className={` ${switzer.className} text-neutral-300 tracking-tight text-[17px] text-left`}
             >
               O nivelamento de terreno é essencial para garantir uma base plana
               e estável para construções. Esse processo ajusta a topografia do
@@ -67,7 +67,7 @@ export function Services() {
               <DialogTitle>Demolição</DialogTitle>
             </DialogHeader>
             <p
-              className={` ${switzer.className} text-neutral-300 tracking-tight text-[17px] text-justify`}
+              className={` ${switzer.className} text-neutral-300 tracking-tight text-[17px] text-left`}
             >
               A demolição é o serviço de desmontagem controlada de estruturas
               antigas ou indesejadas no terreno, preparando a área para novos
@@ -85,7 +85,7 @@ export function Services() {
               <DialogTitle>Escavação</DialogTitle>
             </DialogHeader>
             <p
-              className={` ${switzer.className} text-neutral-300 tracking-tight text-[17px] text-justify`}
+              className={` ${switzer.className} text-neutral-300 tracking-tight text-[17px] text-left`}
             >
               A escavação é o processo de remoção de solo para abrir fundações,
               valas ou outras estruturas subterrâneas essenciais. Com

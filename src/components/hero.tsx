@@ -5,7 +5,7 @@ import BackgroundImgDesktop from '@/assets/background-img.png'
 import BackgroundImgMobile from '@/assets/background-img-mobile.png'
 import { jura } from '@/lib/fonts'
 import { useEffect, useState } from 'react'
-import { Button } from './ui/button'
+import { ButtonCta } from './ui/button-cta'
 
 export default function Hero() {
   const [isMobile, setIsMobile] = useState(false)
@@ -42,9 +42,7 @@ export default function Hero() {
           <p className="lg:text-xl text-lg text-white mb-8">
             Damos forma ao terreno para que seus projetos comecem com solidez.
           </p>
-          <Button className="bg-orangeAm text-brownAm font-semibold hover:bg-orange-400">
-            Solicite Seu Orçamento
-          </Button>
+          <ButtonCta message="Solicite um orçamento" />
         </div>
       </div>
     </div>
