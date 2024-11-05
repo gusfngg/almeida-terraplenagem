@@ -96,7 +96,7 @@ export function Header() {
             </Drawer>
           </div>
 
-          <ButtonCta message="Entrar em contato!" />
+          <ButtonCta className="hidden lg:block" message="Entrar em contato!" />
         </div>
       </div>
     </header>

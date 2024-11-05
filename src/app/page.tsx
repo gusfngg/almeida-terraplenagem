@@ -1,3 +1,4 @@
+import { About } from '@/components/about'
 import { Footer } from '@/components/footer'
 import { FrequentlyAsked } from '@/components/frequently-asked '
 import { Header } from '@/components/header'
@@ -19,6 +20,8 @@ export default function Home() {
         <Services />
         <Values />
         <Marquee />
+        <About />
+
         <FrequentlyAsked />
       </div>
 
