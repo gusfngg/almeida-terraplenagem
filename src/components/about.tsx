@@ -18,7 +18,7 @@ export function About() {
           SOBRE NÓS
         </h1>
 
-        <p className={`${switzer.className} mt-8 font-normal text-lg`}>
+        <p className={`${switzer.className} mt-8 font-normal`}>
           A Almeida Terraplenagem é uma empresa especializada em serviços de
           terraplenagem, que atua com qualidade e precisão no preparo de
           terrenos para construções, pavimentações e projetos de infraestrutura.
@@ -26,7 +26,7 @@ export function About() {
           entulhos, compactação e nivelamento de solo, buscando sempre a
           segurança e a eficácia em todas as etapas do processo.
         </p>
-        <p className={`${switzer.className} mt-2 text-lg`}>
+        <p className={`${switzer.className} mt-2`}>
           Com uma equipe de profissionais qualificados e equipamentos modernos,
           a Almeida Terraplenagem se destaca pela agilidade na execução dos
           trabalhos e pelo compromisso em atender às necessidades de cada
