@@ -26,7 +26,7 @@ export default function Componnet() {
         OBRAS REALIZADAS
       </h1>
 
-      <Marquee gradient={false} speed={105} className="py-4 mt-8">
+      <Marquee gradient={false} speed={88} className="py-4 mt-8">
         {images.map((src, index) => (
           <div key={index} className="mx-4">
             <Image

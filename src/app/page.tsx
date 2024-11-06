@@ -16,8 +16,11 @@ export default function Home() {
 
       <Hero />
 
-      <div className="mx-auto flex max-w-[90rem] flex-col px-5">
+      <div className="mx-auto flex max-w-[112rem] flex-col px-5">
         <Services />
+      </div>
+
+      <div className="mx-auto flex max-w-[90rem] flex-col px-5">
         <Values />
         <Marquee />
         <About />

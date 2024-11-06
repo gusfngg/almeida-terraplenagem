@@ -4,6 +4,7 @@ import Image1 from '@/assets/1.png'
 import Image2 from '@/assets/2.png'
 import Image3 from '@/assets/3.png'
 import Image4 from '@/assets/4.png'
+import Image5 from '@/assets/5.png'
 import {
   Dialog,
   DialogContent,
@@ -21,6 +22,8 @@ export function Services() {
         CONHEÇA NOSSOS SERVIÇOS
       </h1>
       <div className="flex items-center gap-4 flex-col lg:flex-row">
+        <CardServices img={Image5} service="Perfuração de bloco" />
+
         <Dialog>
           <DialogTrigger asChild className="pointer">
             <CardServices service="Limpeza de Terreno" img={Image1} />

@@ -39,8 +39,11 @@ export default function Hero() {
           >
             SERVIÇO DE TERRAPLENAGEM
           </h1>
-          <p className="lg:text-xl text-lg text-white mb-8">
+          <p className="lg:text-xl text-lg text-white mb-2">
             Damos forma ao terreno para que seus projetos comecem com solidez.
+          </p>
+          <p className="lg:text-xl text-lg text-white mb-2">
+            Entre em contato: <strong>(15) 99745-2271</strong>
           </p>
           <ButtonCta message="Solicite um orçamento" />
         </div>

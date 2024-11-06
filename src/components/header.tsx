@@ -8,7 +8,7 @@ import Logo from '@/assets/logotipo.png'
 
 import { Drawer, DrawerContent, DrawerTrigger } from '@/components/ui/drawer'
 import { useEffect, useState } from 'react'
-import { ButtonCta } from './ui/button-cta'
+import Link from 'next/link'
 
 const navItems = [
   { name: 'Início', to: 'hero' },
@@ -96,7 +96,11 @@ export function Header() {
             </Drawer>
           </div>
 
-          <ButtonCta className="hidden lg:block" message="Entrar em contato!" />
+          <Button className="hidden lg:block bg-orangeAm text-brownAm font-semibold hover:bg-orange-400">
+            <Link href="https://api.whatsapp.com/send?phone=5515997452271&text=Quero%20solicitar%20um%20or%C3%A7amento!">
+              Entrar em contato
+            </Link>
+          </Button>
         </div>
       </div>
     </header>
