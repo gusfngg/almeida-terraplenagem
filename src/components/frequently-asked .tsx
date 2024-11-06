@@ -5,6 +5,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from './ui/accordion'
+import { ButtonCta } from './ui/button-cta'
 
 export function FrequentlyAsked() {
   return (
@@ -15,7 +16,7 @@ export function FrequentlyAsked() {
         Perguntas frequentes
       </h1>
 
-      <div className="w-[23rem] lg:w-[45rem] mt-12 border p-4 rounded-md ">
+      <div className="w-[23rem] lg:w-[45rem] mt-12 border p-4 rounded-md flex items-center justify-center flex-col">
         <Accordion type="single" collapsible className="w-full">
           <AccordionItem value="item-1">
             <AccordionTrigger>
@@ -62,6 +63,8 @@ export function FrequentlyAsked() {
             </AccordionContent>
           </AccordionItem>
         </Accordion>
+
+        <ButtonCta className="mt-6" message="Solicite um orçamento" />
       </div>
     </div>
   )

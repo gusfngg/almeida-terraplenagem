@@ -73,7 +73,7 @@ export function Header() {
                   <Menu className="h-6 w-6" />
                 </button>
               </DrawerTrigger>
-              <DrawerContent className="bg-brownAm">
+              <DrawerContent className="bg-neutral-200">
                 <div className="mt-12 flex flex-col items-center justify-center space-y-3 p-4 ">
                   {navItems.map((item) => (
                     <ScrollLink
@@ -86,7 +86,7 @@ export function Header() {
                       activeClass="border-primary"
                       onClick={handleLinkClick}
                     >
-                      <Button className="bg-orangeAm rounded-lg w-48 border border-neutral-400 text-lg text-brownAm">
+                      <Button className="bg-orangeAm rounded-lg w-48 border hover:bg-orangeAm/90 border-neutral-400 text-lg text-brownAm">
                         {item.name}
                       </Button>
                     </ScrollLink>
