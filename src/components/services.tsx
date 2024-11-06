@@ -22,8 +22,25 @@ export function Services() {
         CONHEÇA NOSSOS SERVIÇOS
       </h1>
       <div className="flex items-center gap-4 flex-col lg:flex-row">
-        <CardServices img={Image5} service="Perfuração de bloco" />
-
+        <Dialog>
+          <DialogTrigger asChild className="pointer">
+            <CardServices img={Image5} service="Perfuração de solo" />
+          </DialogTrigger>
+          <DialogContent className="max-w-[345px] lg:max-w-[500px]">
+            <DialogHeader>
+              <DialogTitle>Perfuração de solo</DialogTitle>
+            </DialogHeader>
+            <p
+              className={` ${switzer.className} text-neutral-300 tracking-tight text-[17px] text-left`}
+            >
+              perfuração de solo é uma etapa fundamental na engenharia civil e
+              construção, usada para investigar, descompactar ou criar espaços
+              específicos no terreno. Esse processo é essencial para fundações,
+              coleta de amostras para análise geotécnica, instalação de estacas
+              e suporte para estruturas subterrâneas.
+            </p>
+          </DialogContent>
+        </Dialog>
         <Dialog>
           <DialogTrigger asChild className="pointer">
             <CardServices service="Limpeza de Terreno" img={Image1} />
