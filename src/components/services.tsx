@@ -33,7 +33,7 @@ export function Services() {
             <p
               className={` ${switzer.className} text-neutral-300 tracking-tight text-[17px] text-left`}
             >
-              perfuração de solo é uma etapa fundamental na engenharia civil e
+              A perfuração de solo é uma etapa fundamental na engenharia civil e
               construção, usada para investigar, descompactar ou criar espaços
               específicos no terreno. Esse processo é essencial para fundações,
               coleta de amostras para análise geotécnica, instalação de estacas

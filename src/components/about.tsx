@@ -9,7 +9,7 @@ export function About() {
       className="mt-28 lg:flex-row flex-col flex lg:items-start items-center gap-4 lg:gap-16"
     >
       <Image
-        className="lg:w-[360px] lg:h-[500px] h-[380px] w-[380px] rounded-md"
+        className="lg:w-[400px] lg:h-[600px] h-[490px] w-[380px] rounded-md"
         src={AboutImage}
         height={5313}
         width={3438}
@@ -28,12 +28,6 @@ export function About() {
           Oferece uma variedade de serviços, como escavação, remoção de
           entulhos, compactação e nivelamento de solo, buscando sempre a
           segurança e a eficácia em todas as etapas do processo.
-        </p>
-        <p className={`${switzer.className} mt-6 max-w-[500px] text-justify`}>
-          Com uma equipe de profissionais qualificados e equipamentos modernos,
-          a Almeida Terraplenagem se destaca pela agilidade na execução dos
-          trabalhos e pelo compromisso em atender às necessidades de cada
-          cliente, desde obras residenciais até grandes empreendimentos.
         </p>
       </div>
     </section>
