@@ -3,7 +3,18 @@ import { inter } from '@/lib/fonts'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://almeidaterraplenagem.com.br'),
+  keywords: [
+    'Terraplenagem',
+    'Serviço de Terraplenagem',
+    'Alemeida Terraplenagem',
+  ],
   title: 'Almeida Terraplenagem',
+  openGraph: {
+    description:
+      'Almeida Terraplenagem oferece um serviço de qualidade de terraplenagem',
+    images: [''],
+  },
 }
 
 export default function RootLayout({
