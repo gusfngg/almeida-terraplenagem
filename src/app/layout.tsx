@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   keywords: [
     'Terraplenagem',
     'Serviço de Terraplenagem',
-    'Alemeida Terraplenagem',
+    'Almeida Terraplenagem',
   ],
   title: 'Almeida Terraplenagem',
   openGraph: {
