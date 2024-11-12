@@ -1,6 +1,7 @@
 import './globals.css'
 import { inter } from '@/lib/fonts'
 import type { Metadata } from 'next'
+import { Analytics } from '@vercel/analytics/react'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://almeidaterraplenagem.com.br'),
@@ -36,6 +37,7 @@ export default function RootLayout({
       dark:[&::-webkit-scrollbar-thumb]:bg-neutral-500 `}
       >
         {children}
+        <Analytics />
       </body>
     </html>
   )
