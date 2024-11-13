@@ -14,35 +14,42 @@ import Img8 from '@/assets/marquee/8.png'
 import Img9 from '@/assets/marquee/9.png'
 import Img10 from '@/assets/marquee/10.png'
 import { ButtonCta } from './ui/button-cta'
+import BlurFade from './ui/blur-fade'
 
 export default function Componnet() {
   const images = [Img1, Img2, Img3, Img4, Img6, Img7, Img8, Img9, Img10]
 
   return (
     <div className="w-full mt-32">
-      <h1
-        className={`${jura.className} font-black text-brownAm text-4xl text-center mx-auto max-w-[900px]`}
-      >
-        OBRAS REALIZADAS
-      </h1>
+      <BlurFade inView>
+        <h1
+          className={`${jura.className} font-black text-brownAm text-4xl text-center mx-auto max-w-[900px]`}
+        >
+          OBRAS REALIZADAS
+        </h1>
+      </BlurFade>
 
-      <Marquee gradient={false} speed={88} className="py-4 mt-8">
-        {images.map((src, index) => (
-          <div key={index} className="mx-4">
-            <Image
-              src={src}
-              alt=""
-              width={1563}
-              height={1156}
-              className="rounded-md lg:h-[370px] lg:w-[500px] h-[260px] w-[320px]"
-            />
-          </div>
-        ))}
-      </Marquee>
+      <BlurFade inView>
+        <Marquee gradient={false} speed={88} className="py-4 mt-8">
+          {images.map((src, index) => (
+            <div key={index} className="mx-4">
+              <Image
+                src={src}
+                alt=""
+                width={1563}
+                height={1156}
+                className="rounded-md lg:h-[370px] lg:w-[500px] h-[260px] w-[320px]"
+              />
+            </div>
+          ))}
+        </Marquee>
+      </BlurFade>
 
-      <div className="flex items-center justify-center">
-        <ButtonCta message="Solicite um orçamento!" />
-      </div>
+      <BlurFade inView>
+        <div className="flex items-center justify-center">
+          <ButtonCta message="Solicite um orçamento!" />
+        </div>
+      </BlurFade>
     </div>
   )
 }
