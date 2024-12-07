@@ -36,7 +36,7 @@ export function Header() {
 
   return (
     <BlurFade inView>
-      <header className="my-4">
+      <header className="mt-7 mb-5 lg:my-4">
         <BlurFade inView>
           <div className="lg:border-2 lg:rounded-md lg:py-2 px-4">
             <div className="flex items-center justify-between">
@@ -73,6 +73,14 @@ export function Header() {
                   </BlurFade>
                 </nav>
               </div>
+
+              <BlurFade inView>
+                <Button className="hidden lg:block bg-orangeAm text-brownAm font-semibold hover:bg-orange-400">
+                  <Link href="https://api.whatsapp.com/send?phone=5515997452271&text=Quero%20solicitar%20um%20or%C3%A7amento!">
+                    Entrar em contato
+                  </Link>
+                </Button>
+              </BlurFade>
               <div className="flex justify-between min-[825px]:hidden">
                 <BlurFade inView>
                   <Drawer open={isDrawerOpen} onOpenChange={setIsDrawerOpen}>
@@ -108,13 +116,6 @@ export function Header() {
                   </Drawer>
                 </BlurFade>
               </div>
-              <BlurFade inView>
-                <Button className="hidden lg:block bg-orangeAm text-brownAm font-semibold hover:bg-orange-400">
-                  <Link href="https://api.whatsapp.com/send?phone=5515997452271&text=Quero%20solicitar%20um%20or%C3%A7amento!">
-                    Entrar em contato
-                  </Link>
-                </Button>
-              </BlurFade>
             </div>
           </div>
         </BlurFade>
