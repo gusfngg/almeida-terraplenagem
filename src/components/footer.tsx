@@ -8,7 +8,10 @@ export function Footer() {
       <h1
         className={`${switzer.className} text-brownAm font-regular text-base`}
       >
-        ©2024 Almeida terraplenagem
+        <Link href={'https://instagram.com/gs.gus'}>
+          Criado por Gustavo Camargo
+        </Link>
+        {''} | © Todos os direitos reservados
       </h1>
 
       <div className="flex items-center gap-4">
