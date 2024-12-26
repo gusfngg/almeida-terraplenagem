@@ -6,15 +6,25 @@ import { Analytics } from '@vercel/analytics/react'
 export const metadata: Metadata = {
   metadataBase: new URL('https://almeidaterraplenagem.com.br'),
   keywords: [
-    'Terraplenagem',
-    'Serviço de Terraplenagem',
+    'Terraplenagem Salto de Pirapora',
     'Almeida Terraplenagem',
+    'Terraplanagem Salto de Pirapora',
+    'Serviços de Terraplenagem',
+    'Nivelamento de terreno Salto de Pirapora',
   ],
-  title: 'Almeida Terraplenagem',
+  title: 'Terraplenagem em Salto de Pirapora | Almeida Terraplenagem',
   openGraph: {
+    title: 'Almeida Terraplenagem | Serviços em Salto de Pirapora',
     description:
-      'Almeida Terraplenagem oferece um serviço de qualidade de terraplenagem',
+      'Almeida Terraplenagem: Serviços especializados de terraplenagem em Salto de Pirapora. Nivelamento, aterro e preparação de terrenos. Orçamento gratuito!',
     images: [''],
+    type: 'website',
+    locale: 'pt_BR',
+    siteName: 'Almeida Terraplenagem',
+  },
+  robots: {
+    index: true,
+    follow: true,
   },
 }
 
